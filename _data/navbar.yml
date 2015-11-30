@@ -1,0 +1,11 @@
+- name: 'Blog'
+  icon: 'fa-file-text'
+  href: 'http://844196.com/blog/'
+
+- name: 'File'
+  icon: 'fa-server'
+  href: 'http://file.844196.com/'
+
+- name: 'Ask'
+  icon: 'fa-comments'
+  href: 'http://ask.fm/s083207'

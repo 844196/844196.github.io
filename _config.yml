@@ -1,0 +1,43 @@
+title: 'About 844196'
+url: 'http://844196.com'
+author: '844196'
+description: 'いや、そういう声もあるというだけです'
+timezone: 'Asia/Tokyo'
+
+github:
+    root: 'https://github.com'
+    repo: '844196/844196.github.io'
+    branch: 'master'
+
+exclude:
+    - 'README.md'
+    - 'LICENSE'
+    - 'CNAME'
+    - 'vendor'
+    - 'Guardfile'
+    - 'Gemfile'
+    - 'Gemfile.lock'
+
+gems:
+    - 'jemoji'
+
+markdown: 'redcarpet'
+redcarpet:
+    extensions:
+        - 'tables'
+        - 'fenced_code_blocks'
+        - 'no_intra_emphasis'
+        - 'strikethrough'
+        - 'footnotes'
+        - 'autolink'
+        - 'lax_spacing'
+        - 'space_after_headers'
+        - 'hard_wrap'
+        - 'highlight'
+        - 'with_toc_data'
+pygment: false
+
+sass:
+    style: 'compressed'
+
+navbar: false

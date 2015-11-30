@@ -1,0 +1,50 @@
+name: '844196'
+bio: 'Asahikawa, Hokkaido, Japan'
+description: 'いや、そういう声もあるというだけです'
+
+
+accounts:
+    - service: 'Blog'
+      icon:    'fa-pencil-square'
+      href:    'http://844196.com/blog/'
+
+    - service: 'Ask.fm'
+      icon:    'fa-envelope-square'
+      href:    'http://ask.fm/s083207'
+
+    - service: 'Twitter'
+      icon:    'fa-twitter-square'
+      href:    'https://twitter.com/844196'
+
+    - service: 'Tumblr'
+      icon:    'fa-tumblr-square'
+      href:    'http://844196.tumblr.com/'
+
+    - service: 'Github'
+      icon:    'fa-github-square'
+      href:    'https://github.com/844196'
+
+    - service: 'Flickr'
+      icon:    'fa-flickr'
+      href:    'https://flickr.com/s083027'
+
+
+sections:
+    - title: 'Maintainer'
+      content: |
+        - [Renge](https://github.com/844196/Renge)
+        - [844196_renge](https://github.com/844196/844196_renge)
+        - [homebrew-renge](https://github.com/844196/homebrew-renge)
+        - [NCipher](https://github.com/844196/n_cipher)
+        - [kusa.rb](https://github.com/844196/kusa.rb)
+        - [lightline-badwolf.vim](https://github.com/844196/lightline-badwolf.vim)
+        - [vimsay](https://github.com/844196/vimsay)
+        - [memo.vim](https://github.com/844196/memo.vim)
+        - [vill-osamu.github.io](https://github.com/vill-osamu/vill-osamu.github.io)
+        - [Osamu's house Advent Calendar](http://goo.gl/Kxkvis)
+
+    - title: 'Contribute'
+      content: |
+        - [Clangsay](https://github.com/sasairc/clangsay)
+        - [Apache2_modoki](https://github.com/sasairc/Apache2_modoki)
+        - [keepoff07.github.io (Nuitter)](https://github.com/keepoff07/keepoff07.github.io)

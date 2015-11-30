@@ -1,0 +1,117 @@
+---
+---
+
+
+// common
+.container { max-width: 900px; }
+
+
+// navbar
+.navbar { margin: 0; }
+.navbar-default {
+  .navbar-toggle {
+    border: none;
+    padding: { top: 15px; bottom: 15px; }
+    margin: 0 15px 0 0;
+    &:hover, &:focus { background-color: transparent; }
+  }
+}
+@media (min-width: 768px) {
+  .navbar-nav>li {
+    a {
+      padding: { top: 1px; bottom: 1px; }
+      margin: { top: 13px; bottom: 13px; }
+    }
+    &:nth-of-type(n+2)>a {
+      border-left: solid 1px #b2a4b3;
+    }
+  }
+}
+
+
+// footer
+html {
+  position: relative;
+  min-height: 100%;
+}
+body { margin-bottom: 80px; }
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #eeeeee;
+  p { margin: 15px 0; }
+}
+
+
+// color
+main, a, .navbar-toggle { color: #e5d3e6 !important; }
+a:hover { color: #ffffff !important; }
+footer { color: #b2a4b3; }
+.navbar-default, .footer { background-color: transparent; }
+.profile-content h2 { border-bottom-color: #b2a4b3; }
+
+
+// gradient
+body {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ba79b1+0,003567+100 */
+  background: rgb(186,121,177); /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  rgba(186,121,177,1) 0%, rgba(0,53,103,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg,  rgba(186,121,177,1) 0%,rgba(0,53,103,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg,  rgba(186,121,177,1) 0%,rgba(0,53,103,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ba79b1', endColorstr='#003567',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+
+// profile-*
+@mixin profile-padding { padding: { top: 25px; bottom: 25px; } }
+.profile-header {
+  @include profile-padding;
+  text-align: center;
+  h1 { margin: 12px 0 7px; }
+  .profile-img {
+    max-width: 144px;
+    max-height: 144px;
+    display: block;
+    margin: 0 auto;
+    border: solid 4px #ffffff;
+    border-radius: 50%;
+  }
+  .description {
+    p { margin: 0; }
+  }
+  .description, .social-link {
+    padding: 3px 0;
+  }
+}
+.profile-content {
+  @include profile-padding;
+  h2 {
+    border-bottom: { style: solid; width: 1px; }
+    padding: 10px 0 5px 2px;
+    margin: 0 0 10px 0;
+  }
+  ul {
+    padding-left: 1.5em;
+    li {
+      list-style: none;
+      position: relative;
+      &:before {
+        margin-right: .5em;
+        font-family: 'FontAwesome';
+        content: '\f105'
+      }
+    }
+  }
+}
+
+
+// misc
+a {
+  &:hover, &:focus, &:hover &:focus { text-decoration: none; }
+}
+.navbar-default, .navbar-collapse { border: none; }
+main {
+  letter-spacing: 1px;
+  line-height: 1.6em;
+}
